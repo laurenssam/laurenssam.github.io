@@ -8,7 +8,7 @@ nav_order: 1
 
 profile:
   align: right
-  image: prof_pic.jpg # add your photo with this filename
+  image: laurens.jpg # add your photo with this filename
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Researcher in AI Safety</p>
