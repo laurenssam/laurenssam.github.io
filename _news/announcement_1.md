@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
-related_posts: false
+date: 2025-01-15
+inline: True
 ---
 
-A simple inline announcement.
+Started new role as Lead R&D LLMs at City of Amsterdam, leading implementation of Large Language Models across the organization.
+

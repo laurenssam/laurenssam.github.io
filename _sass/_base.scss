@@ -227,6 +227,30 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page subtle green styling
+.page-about {
+  // Subtle green accent on role descriptions (bold text)
+  strong {
+    color: var(--global-theme-color);
+    border-bottom: 1px solid rgba(129, 199, 132, 0.3); // Using green-color with opacity
+  }
+  
+  // Light green background for profile info
+  .more-info p strong {
+    background-color: rgba(129, 199, 132, 0.1); // Very subtle green background
+    padding: 2px 6px;
+    border-radius: 3px;
+    border-left: 2px solid var(--global-theme-color);
+  }
+  
+  // Green accent for section headers
+  h2 {
+    border-left: 3px solid var(--global-theme-color);
+    padding-left: 10px;
+    margin-left: -13px;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -285,6 +309,15 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+  }
+
+  .navbar-name {
+    color: var(--global-text-color);
+  }
+
+  .navbar-name-green {
+    color: var(--global-theme-color);
+    font-weight: 600;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -700,6 +733,12 @@ footer.sticky-bottom {
 
 // Publications
 
+// Publications page title styling
+.post:has(.publications) .post-title {
+  color: var(--global-text-color);
+  font-weight: bold;
+}
+
 .publications {
   margin-top: 2rem;
 
@@ -731,6 +770,24 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    // Remove Bootstrap column constraints and align everything left
+    .col-sm-8, .col-sm-10 {
+      padding-left: 0;
+      max-width: 100%;
+      flex: none;
+      width: 100%;
+    }
+    
+    // Hide thumbnail/abbr column to give more space for authors
+    .col-sm-2.abbr {
+      display: none;
+    }
 
     li {
       margin-bottom: 1rem;
@@ -764,9 +821,20 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        
+        &:hover {
+          color: var(--global-theme-color);
+          transition: color 0.2s ease;
+        }
       }
 
       .author {
+        width: 100%;
+        max-width: none;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -777,8 +845,10 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          color: var(--global-theme-color);
+          border-bottom: 1px solid var(--global-theme-color);
           font-style: normal;
+          font-weight: 500;
         }
 
         > span.more-authors {

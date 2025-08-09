@@ -2,96 +2,155 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Laurens Samson
+    - name: Location
+      value: Amsterdam, The Netherlands
+    - name: Email
+      value: l.samson@uva.nl
     - name: Languages
-      value: English, German
+      value: Dutch (Native), English (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Safety in Multimodal Generative Models
+      institution: University of Amsterdam, Amsterdam, Netherlands
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focus on Red teaming, AI ethics, privacy, and bias in Large Language Models
+        - Research Lab - SIAS Group and VISLab, consisting of multicultural and international researchers
+        - "Supervised by: Prof. Yuki Asano (Machine Learning & Computer Vision) and Prof. Sennay Ghebreab (Socially Intelligent AI)"
+
+    - title: Master in Artificial Intelligence
+      institution: University of Amsterdam, Amsterdam, Netherlands
+      year: 2017 - 2019
       description:
-        - Description 1.
-        - Description 2.
+        - Specialised in machine learning, deep learning, and computer vision
+        - Graduated with an 8.0/10
+
+    - title: Exchange Program
+      institution: San Francisco State University, San Francisco, USA
+      year: 2017
+      description:
+        - Computer science courses
+
+    - title: Bachelor in Beta Gamma, Major in Artificial Intelligence
+      institution: University of Amsterdam, Amsterdam, Netherlands
+      year: 2013 - 2017
+      description:
+        - Studied interdisciplinary research fields including chemistry, logic, and sociology
+        - Focused on artificial intelligence in the final two years
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lead R&D LLMs, AI Platform
+      institution: City of Amsterdam
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leading 8-person team implementing LLMs organization-wide
+        - Benchmarking LLMs on bias, truthfulness and sustainability in Dutch
+
+    - title: Founder & Computer Vision Lead, R&D Computer Vision Team
+      institution: City of Amsterdam
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Led 10-person team creating ethical AI solutions
+        - Managed AI Governance with ethics, bias, privacy, and security standards
+        - Key Projects - Blurring as a Service (anonymization tool), Ethical Scan Bike (urban monitoring), Citizen Participation (co-creation approach)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Machine Learning Engineer, R&D AI Team
+      institution: City of Amsterdam
+      year: 2020 - 2021
       description:
+        - Developed AI prototypes for city management
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Teaching Assistant
+      institution: University of Amsterdam, Bachelor Artificial Intelligence
+      year: 2020
+      description:
+        - Practical sessions in Calculus & Optimisation
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Machine Learning Engineer
+      institution: TomTom Research & Development, Autonomous Driving
+      year: 2019 - 2020
+      description:
+        - Automated high-definition map generation for autonomous vehicles
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Machine Learning Intern
+      institution: TomTom Research & Development, Autonomous Driving
+      year: 2019
+      description:
+        - Structured semantic segmentation using adversarial training
 
-- title: Academic Interests
+    - title: Founder & CEO
+      institution: BrouwBrood, Green Startup
+      year: 2015 - 2017
+      description:
+        - Bread production from beer brewing leftovers
+        - Semi-finalist Accenture Innovation Awards
+
+- title: Publications
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Peer-Reviewed
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "<b>L. Samson</b>, N. van Noord, O. Booij, M. Hofmann, E. Gavves and M. Ghafoorian. <i>I Bet You Are Wrong: Gambling Adversarial Networks for Structured Semantic Segmentation</i>. ICCV 2019, Computer Vision for Road Scene Understanding and Autonomous Driving."
+        - "S. Kanis, <b>L. Samson</b>, D. Bloemberen and T. Bakker. <i>Back to Basics: Deep Reinforcement Learning in Traffic Signal Control</i>. SIGSPATIAL 2021, Urban Computing."
+        - "M. De Kreek, K. Alfrink, M. de Waal, G. Kortuem, T. Turel, B. Visser, and <b>L. Samson</b>. <i>When 'doing ethics' meets public procurement of smart city technology – an Amsterdam case study</i>. IASDR 2023, Life-Changing Design."
+    - title: Under Review
       items:
-        - Description 1.
-        - Description 2.
+        - "A. Pires, <b>L. Samson</b>, S. Ghebreab, F. Santos. <i>How Large Language Models Judge and Influence Human Cooperation</i>. 2025, Arxiv: Under Review."
+        - "<b>L. Samson</b>, N. Barazani, S. Ghebreab, Y. Asano. <i>Privacy Aware Visual Language Models</i>. 2025, Arxiv: Under Review."
 
-- title: Other Interests
+- title: Patents
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "M. Ghafoorian, <b>L. Samson</b>, O. Booij. <i>Generative Adversarial Networks for Image Segmentation</i>. Patent pending, 2022."
+
+- title: Media Coverage
+  type: time_table
+  contents:
+    - title: "World Economic Forum"
+      institution: Blurring as a Service feature
+      year: 2024
+      description:
+        - Privacy-preserving AI technology coverage
+
+    - title: "Dutch Government News"
+      institution: Binnenlands Bestuur
+      year: 2024
+      description:
+        - Citizen participation in AI development
+
+    - title: "National Press Coverage"
+      institution: Parool, AD, Computable & more
+      year: 2023
+      description:
+        - Anonymization algorithm coverage
+
+- title: Student Supervision
+  type: nested_list
+  contents:
+    - title: Master's AI Thesis Co-supervision
+      items:
+        - "Kaleigh Douglas (2021) - Anonymizing People in Images Using GANs"
+        - "Tom Lotze (2021) - Unsupervised Object Discovery through Copy-Paste GANs"
+        - "Sierk Kanis (2021) - Deep Reinforcement Learning in Traffic Signal Control"
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: AI & Machine Learning
+      items:
+        - Machine Learning, Computer Vision, NLP, LLMs
+        - AI Ethics, Privacy, Governance, Red Teaming
+    - title: Programming & Tools
+      items:
+        - "Python, PyTorch, TensorFlow, Git, Docker"
+
+- title: Interests
+  type: list
+  contents:
+    - "<b>Activities:</b> Padel, Football, Tennis, Chess, Baking"
+    - "<b>Travel:</b> Colombia, Central Asia, China, Morocco, USA, Balkans"

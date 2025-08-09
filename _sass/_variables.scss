@@ -5,24 +5,29 @@
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+// Colors - Pastel Professional Palette
+$red-color: #e57373 !default;          // Soft coral red
+$red-color-dark: #c62828 !default;     // Deeper red for contrast
+$orange-color: #ffb74d !default;       // Warm pastel orange
+$blue-color: #64b5f6 !default;         // Soft sky blue
+$blue-color-dark: #1976d2 !default;    // Professional blue
+$cyan-color: #4db6ac !default;         // Soft teal cyan
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+
+// Beautiful pastel greens - your favorites!
+$green-color: #81c784 !default;        // Main pastel green
+$green-color-lime: #aed581 !default;   // Soft lime green
+$green-color-dark: #388e3c !default;   // Professional dark green
+$green-color-light: #e8f5e8 !default;  // Very light green background
+$green-color-bright: #66bb6a !default; // Vibrant but soft green
+$green-sage: #a5d6a7 !default;         // Sage green
+$green-mint: #c8e6c9 !default;         // Mint green
+
+$purple-color: #ba68c8 !default;       // Soft lavender purple
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+$pink-color: #f48fb1 !default;         // Gentle pink
+$pink-color-light: #fce4ec !default;   // Very light pink
+$yellow-color: #fff176 !default;       // Soft pastel yellow
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
@@ -34,7 +39,7 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($green-mint, 0.3);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location
