@@ -1,15 +1,14 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: blank # the website title (if blank, full name will be used instead)
+title: Laurens Samson - AI Safety Researcher
 first_name: Laurens
 last_name: Samson
+author: Laurens Samson
 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Researcher in AI Safety for Multimodal LLMs at University of Amsterdam.
-  Leading AI innovation at City of Amsterdam with focus on ethical AI, privacy, and social impact.
+description: "PhD Researcher in AI Safety, Multimodal LLMs at University of Amsterdam. Leading ethical AI innovation at City of Amsterdam."
 footer_text:
-keywords: AI safety, multimodal LLMs, computer vision, ethical AI, privacy, red teaming  # add your own keywords or leave empty
+keywords: "Laurens Samson, AI Safety, Multimodal LLMs, Computer Vision, Privacy AI, University of Amsterdam, Ethical AI, Red Teaming, LLM Benchmarking"
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -18,6 +17,7 @@ baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -83,10 +83,9 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: "aSWBbXfhCCbOWKMsezzQk2VEm5Ts83L97nbBDj0IFYQ"# get this from Google Search Console
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # SEO Related
-google_site_verification: # get this from Google Search Console
 
 
 # -----------------------------------------------------------------------------
